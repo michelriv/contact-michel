@@ -1,6 +1,6 @@
-import React from 'react';
-import { Context } from '../store/appContext';
-import { useContext } from 'react';
+import React, { useContext } from "react";
+import { Context } from "../store/appContext.js"
+import { Link } from "react-router-dom";
 
 
 const ContactCard = ({ contact, editContact }) => {

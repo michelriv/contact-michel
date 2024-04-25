@@ -50,7 +50,6 @@ const ContactList = () => {
         isOpen={Open}
         onClose={closeModal}
       />
-      <Footer />
     </div>
   );
 };
